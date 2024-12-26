@@ -1,0 +1,6 @@
+venv/
+my_saved_model/ 
+Fake.csv
+True.csv
+train.csv
+kaggle.json

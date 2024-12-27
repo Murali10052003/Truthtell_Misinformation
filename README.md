@@ -71,35 +71,18 @@ The objective of this project is to develop and deploy a machine learning model 
    python app.py
    ```
 
+
+
 ### Access Deployed Model
 
-The model is deployed on Hugging Face. You can access it [here](https://huggingface.co/your-model-link).
-
-### API Usage
-
-- **Endpoint**: `https://huggingface.co/api/your-model-endpoint`
-- **Request Body** (JSON):
-  ```json
-  {
-    "text": "Enter your news headline or article here"
-  }
-  ```
-
-- **Response** (JSON):
-  ```json
-  {
-    "prediction": "Fake",
-    "confidence": 0.92
-  }
-  ```
-
+The model is deployed on Hugging Face. You can access it [Live link](https://huggingface.co/spaces/malavika4089/misinformation-truthteller).
 
 
 ## Dataset
 
 The dataset used for this project was sourced from:
 - [Kaggle Fake News Dataset](https://www.kaggle.com/)
-- Additional curated datasets.
+
 
 ## Technologies Used
 
@@ -112,9 +95,4 @@ The dataset used for this project was sourced from:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
 
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
-- [Kaggle Datasets](https://www.kaggle.com/)
-
----
